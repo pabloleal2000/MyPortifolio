@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --font-poppins:'poppins';
+ }
+
+body{
+    width: 100%;
+    height: 100vh;
+ }
+
+/* CABECALHO */
+header{
+    width: 100%;
+    height: 1rem;
+}
+.header,
+.nagivation_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+    
+
+    background-color: black;
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    font-family: var(--font-poppins);
+    color: white;
+}
+.navs{
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-poppins);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.navs:hover{
+    color: #777777;
+}
+.button_nav{
+    background-color: white;
+    font-family: var(--font-poppins);
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.button_nav:hover{
+    background-color: #777777;
+}
+
+/* CONTEUDO CENTRAL */
+.conteudo_central{
+    padding: 100px;
+    width: 100%;
+    align-items: center;
+}
+
+.conteudo_central .carousel {
+    max-width: 800px; /* Largura máxima desejada */
+    max-height: 400px; /* Altura máxima desejada (opcional) */
+    margin: 0 auto; /* Centralize o carrossel horizontalmente */
+}
+
+.modalcentral{
+    padding: 150px;
+    display: flow-root;
+    align-items: center;
+}
+
+
+
+/* RODAPE */
+.footer{
+    width: 100%;
+    height: 2rem;
+   
+    text-align: center;
+    padding: 8px;
+    bottom: 0;
+    background-color: black;
+    color: white;
+}
