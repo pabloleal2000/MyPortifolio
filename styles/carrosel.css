@@ -69,12 +69,13 @@ header{
 
 .conteudo_central .carousel {
     max-width: 800px; /* Largura máxima desejada */
-    max-height: 400px; /* Altura máxima desejada (opcional) */
+    max-height: 500px; /* Altura máxima desejada (opcional) */
     margin: 0 auto; /* Centralize o carrossel horizontalmente */
 }
 
 .modalcentral{
     padding: 150px;
+
     display: flow-root;
     align-items: center;
 }
