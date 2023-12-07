@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --font-poppins:'poppins';
+ }
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden; 
+    
+ }
+
+/* CABECALHO */
+header{
+    width: 100%;
+    height: 1rem;
+}
+.header,
+.nagivation_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+    
+
+    background-color: black;
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    font-family: var(--font-poppins);
+    color: white;
+}
+.navs{
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-poppins);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.navs:hover{
+    color: #777777;
+}
+.button_nav{
+    background-color: white;
+    font-family: var(--font-poppins);
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.button_nav:hover{
+    background-color: #777777;
+}
+
+
+
+
+
+/* CONTEUDO CENTRAL */
+.contatos {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 150px;
+    text-decoration: none;
+    color: white;
+}
+
+.contatos_botao {
+    width: 200px; /* Defina o valor desejado para a largura dos botões */
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-family: var(--font-poppins);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.contatos_botao:hover{
+    color: #777777;
+}
+.titulo{
+    color: black;
+    font-family: var(--font-poppins);
+}
+
+
+
+
+
+
+
+/* RODAPE */
+.footer{
+    width: 100%;
+    height: 2rem;
+   
+    text-align: center;
+    padding: 8px;
+    bottom: 0;
+    background-color: black;
+    color: white;
+}
